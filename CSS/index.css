@@ -1,0 +1,32 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 8000px;
+}
+.home{
+    background-image: url('../Image/fond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1050px;
+    width: 100%;
+
+}
+
+/*--------------------- Scroll bar custom ---------------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    transition: 1s;
+    background: #007fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    transition: 1s;
+}
+
