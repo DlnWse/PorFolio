@@ -7,7 +7,7 @@ window.onscroll = function () {
       document.getElementById("navbar").style.backgroundColor = "#007fff";
       document.getElementById("navbar").style.transition = "0.5s";
     } else {
-      document.getElementById("navbar").style.backgroundColor = "rgba(0, 0, 0, 0.137)";
+      document.getElementById("navbar").style.backgroundColor = "";
       document.getElementById("navbar").style.transition = "0.5s";
     }
   }

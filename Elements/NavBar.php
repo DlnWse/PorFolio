@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/8ec36689ae.js"></script>
 
   <!-- Lien CSS  -->
   <link rel="stylesheet" href="../css/Elements/NavBar.css">
@@ -15,7 +16,7 @@
     <ul class="navbar" id="navbar">
       <li class="logo logores"><a href="#top"><img id="logoimg" src="../Image/Logo_DW.png" alt="Logo"></a></li>
 
-      <li class="right"><a class="menu" href="#contact">Contact</a></li>
+      <li class="right"><a class="menu" href="#contact"> Contact</a></li>
       <li class="right"><a class="menu" href="#projet">Projets</a></li>
       <li class="right"><a class="menu" href="#comp">Compétences</a></li>
       <li class="right"><a class="menu" href="#about">A propos</a></li>
