@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://use.fontawesome.com/8ec36689ae.js"></script>
+  <script src="https://kit.fontawesome.com/8923f438ee.js" crossorigin="anonymous"></script>
 
   <!-- Lien CSS  -->
   <link rel="stylesheet" href="../css/Elements/NavBar.css">

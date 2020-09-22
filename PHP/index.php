@@ -5,23 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/index.css">
-    <script src="https://use.fontawesome.com/8ec36689ae.js"></script>
+    <script src="https://kit.fontawesome.com/8923f438ee.js" crossorigin="anonymous"></script>
     <title>PortFolio - Dylan Weisse</title>
 
 
 </head>
 
-<body>
+<body style="height: 2000px;">
 
     <?php
 
     include '../Elements/NavBar.php'
 
     ?>
+
+
+
     <div class="home">
+        <video autoplay muted loop id="fondVideo">
+            <source src="../Image/dgital.mp4" type="video/mp4">
+        </video>
+        <h1 class="hometext"> Bienvenue !
+            <hr>
+            Je suis <span class="blue">Dylan</span> <br>
+            et je suis <span class="blue">Developpeur
+                Web</span> Junior
+        </h1>
+    </div>
+    
+    <div class="apropos">
+
+    </div>
+
+    <div class="comp">
+        
+    </div>
+
+    <div class="projet">
+        
+    </div>
+    
+    <div class="contact">
+        
+    </div>
 
 
-</div>
 
 </body>
 
