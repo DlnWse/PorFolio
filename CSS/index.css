@@ -29,31 +29,33 @@ hr {
     max-width: 50px;
 }
 
-/*--------------------- Background ---------------------*/
-
-#fondVideo {
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    filter: brightness(50%) ;
-}
-
 /*--------------------- Home ---------------------*/
-.home {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+
+.hometext{
+    text-align: center;
+    top: 0;
+    position: absolute;
+    color: #fff;
     width: 100%;
+    padding-top: 15%;
+    font-size: 50px;
 }
 
 span.blue {
     color: #007fff;
 }
+/*--------------------- Background ---------------------*/
 
+#fondVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    filter: brightness(50%);
+  }
 /*--------------------- Commun ---------------------*/
 
-.apropos, .comp, .projet, .contact{
+.home .apropos, .comp, .projet, .contact{
     height: 100vh;
     width: 100%;
 }

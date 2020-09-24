@@ -3,7 +3,7 @@ window.onscroll = function () {
   };
   
   function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 1050) {
       document.getElementById("navbar").style.backgroundColor = "#007fff";
       document.getElementById("navbar").style.transition = "0.5s";
     } else {
