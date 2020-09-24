@@ -31,7 +31,7 @@ hr {
 
 /*--------------------- Home ---------------------*/
 
-.hometext{
+.hometext {
     text-align: center;
     top: 0;
     position: absolute;
@@ -44,21 +44,51 @@ hr {
 span.blue {
     color: #007fff;
 }
+
 /*--------------------- Background ---------------------*/
 
 #fondVideo {
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     filter: brightness(50%);
-  }
-/*--------------------- Commun ---------------------*/
+}
 
-.home .apropos, .comp, .projet, .contact{
-    height: 100vh;
-    width: 100%;
+.bgblue {
+    background-color: #007fff;
+}
+
+.bgwhite {
+    background-color: #f2f2f2;
+}
+
+.bggray {
+    background-color: #696969;
 }
 
 
+/*--------------------- Commun ---------------------*/
 
+.home .apropos,
+.comp,
+.projet,
+.contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boxR {
+    width: 40%;
+    height: 100%;
+    margin: 2.5%;
+}
+
+.boxL {
+    width: 40%;
+    height: 100%;
+    margin: 2.5%;
+}
