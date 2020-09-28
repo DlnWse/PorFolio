@@ -2,6 +2,8 @@ body,
 html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    background-color: #f2f2f2;
 }
 
 /*--------------------- Scroll bar custom ---------------------*/
@@ -30,6 +32,13 @@ hr {
 }
 
 /*--------------------- Home ---------------------*/
+.home{
+    /* height: 100vh;
+    width: 100%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .hometext {
     text-align: center;
@@ -55,30 +64,34 @@ span.blue {
     filter: brightness(50%);
 }
 
-.bgblue {
+.tBlue {
     background-color: #007fff;
+    color: #f2f2f2;
 }
 
-.bgwhite {
-    background-color: #f2f2f2;
+.tWhite {
+    background-color: #fff;
 }
 
-.bggray {
-    background-color: #696969;
+.tGray {
+    background-color: #3e4249;
 }
 
 
 /*--------------------- Commun ---------------------*/
 
-.home .apropos,
+
+
+.apropos,
 .comp,
 .projet,
 .contact {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .boxR {
@@ -91,4 +104,11 @@ span.blue {
     width: 40%;
     height: 100%;
     margin: 2.5%;
+}
+
+/*--------------------- Titre ---------------------*/
+
+.titlepart{
+    font-size: 40px;
+
 }

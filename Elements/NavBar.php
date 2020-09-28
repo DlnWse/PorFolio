@@ -11,7 +11,7 @@
 
 </head>
 
-<body style="height: 8000px;">
+<body>
 
     <ul class="navbar" id="navbar">
       <li class="logo logores"><a href="#top"><img id="logoimg" src="../Image/Logo_DW.png" alt="Logo"></a></li>

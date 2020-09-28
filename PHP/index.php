@@ -19,7 +19,7 @@
 
     ?>
 
-    <article class="home">
+    <div class="home">
 
         <video autoplay muted loop id="fondVideo">
             <source src="../Image/dgital.mp4" type="video/mp4">
@@ -34,33 +34,30 @@
         </h1>
 
 
-    </article>
+    </div>
+    <div id="about "></div>
+    <div  class="apropos">
+        <div class="boxL tGray">
+            <h1 class="titlepart">A Propos</h1>
 
-    <article class="apropos">
+        </div>
+<div class="boxR tWhite">
 
-        <section class="boxL bggray">
+</div>
 
+    </div>
 
-        </section>
+    <!-- <div class="comp">
 
-        <section class="boxR bgwhite">
+    </div>
 
-        
-        </section>
+    <div class="projet">
 
-    </article>
+    </div>
 
-    <article class="comp">
+    <div class="contact">
 
-    </article>
-
-    <article class="projet">
-
-    </article>
-
-    <article class="contact">
-
-    </article>
+    </div> -->
 
 
 
