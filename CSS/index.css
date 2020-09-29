@@ -32,7 +32,7 @@ hr {
 }
 
 /*--------------------- Home ---------------------*/
-.home{
+.home {
     /* height: 100vh;
     width: 100%; */
     display: flex;
@@ -64,19 +64,9 @@ span.blue {
     filter: brightness(50%);
 }
 
-.tBlue {
-    background-color: #007fff;
-    color: #f2f2f2;
-}
-
-.tWhite {
+.bgWhite {
     background-color: #fff;
 }
-
-.tGray {
-    background-color: #3e4249;
-}
-
 
 /*--------------------- Commun ---------------------*/
 
@@ -91,24 +81,37 @@ span.blue {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
 }
 
-.boxR {
-    width: 40%;
+.boxR, .boxL {
+    width: 50%;
     height: 100%;
-    margin: 2.5%;
 }
 
-.boxL {
-    width: 40%;
-    height: 100%;
-    margin: 2.5%;
-}
 
 /*--------------------- Titre ---------------------*/
 
-.titlepart{
+.titlepart {
     font-size: 40px;
+    text-align: center;
+    color: #007fff;
+}
 
+/*--------------------- Text & Paragraphe ---------------------*/
+
+.justify {
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(61, 61, 61);
+}
+
+.center {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(61, 61, 61);
 }
