@@ -85,6 +85,7 @@ span.blue {
 }
 
 .boxR, .boxL {
+    padding-top: 5%;
     width: 50%;
     height: 100%;
 }
