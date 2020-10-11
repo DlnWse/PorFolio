@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 /*--------------------- Scroll bar custom ---------------------*/
@@ -16,7 +16,7 @@ html {
 /* Handle */
 ::-webkit-scrollbar-thumb {
     transition: 1s;
-    background: #007fff;
+    background: #000000;
 }
 
 /* Handle on hover */

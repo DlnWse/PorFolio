@@ -19,22 +19,7 @@
 
     ?>
 
-    <div class="home">
-
-        <video autoplay muted loop id="fondVideo">
-            <source src="../Image/dgital.mp4" type="video/mp4">
-            Votre Navigateur Web ne comprends pas les video de ce type. (Mettez le a jour !)
-        </video>
-
-        <h1 class="hometext"> Bienvenue !
-            <hr>
-            Je suis <span class="blue">Dylan</span> <br>
-            et je suis <span class="blue">Developpeur
-                Web</span> Junior
-        </h1>
-
-
-    </div>
+  
     <div id="about"></div>
 
     <div class="apropos">

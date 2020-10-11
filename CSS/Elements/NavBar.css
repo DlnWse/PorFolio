@@ -1,126 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
 
+@font-face {
+    font-family: "logofont";
+    src: url('../../font/JumpsSteadyRegular-vmgvE.ttf');
+}
+
 body,
 html {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     font-family: 'Sulphur Point', sans-serif;
 }
 
 /* ------------------------------- */
 
-ul.navbar {
-    list-style-type: none;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-
+.navbar-brand {
+    font-family: 'logofont' !important;
+    font-size: 30px !important;
 }
 
-ul.navbar li {
-    float: left;
-}
-
-ul.navbar li.right {
-    float: right;
-}
-
-ul.navbar li a.menu {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 21.5px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 20px;
-    transition: all .2s ease-in-out
-}
-
-ul.navbar li a.menu:hover {
-    color: #007fff;
-    background-color: white;
-    
-}
-
-ul.navbar li.icon {
-    display: none;
-}
-
-
-
-.navbar .menu .submenu {
-    position: absolute;
-    top: 42px;
-    left: 0;
-    width: 220px;
-    background: black;
-    padding: 10px;
-    -webkite-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    display: none;
-}
-
-.logo {
-    float: left;
-}
-
-#logoimg {
-    width: 48px;
-    height: 100%;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-
-
-
-@media screen and (max-width:768px) {
-
-    ul.navbar li:not(:first-child) {
-        display: none;
-    }
-
-    ul.navbar li.icon {
-        display: block;
-        padding-top: 5px;
-        float: right;
-        cursor: pointer;
-    }
-
-    ul.navbar.responsive {
-        position: fixed;
-        transition: 1s;
-        background-color: #007fff;
-
-    }
-
-    ul.navbar.responsive li.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-
-    }
-
-    ul.navbar.responsive li.icon:hover {
-        color:black;
-        cursor: cursor;
-    }
-
-    ul.navbar.responsive li {
-        float: none;
-        display: inline;
-        transition: 1s;
-    }
-
-    ul.navbar.responsive li a {
-        display: block;
-        float: center;
-        color: #007fff;
-        text-decoration: none;
-    }
-
+.nav-item {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px !important;
 }
