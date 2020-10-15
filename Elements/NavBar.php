@@ -25,26 +25,26 @@
     <div class="collapse navbar-collapse " style="justify-content: flex-end;" id="navbarSupportedContent">
 
       <ul class="navbar-nav">
-        <li class="nav-item about">
-          <a class="nav-link about" href="#about"> <span class="aboutcolor">|</span> About</a>
-        </li>
-        <li class="nav-item skills">
-          <a class="nav-link " href="#skills"><span class="skillscolor">|</span> Skills</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#about"> <span class="aboutcolor">|</span> About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#soft"><span class="softcolor">|</span> Software</a>
+          <a class="nav-link" href="#skills"><span class="skillscolor">|</span> Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#proj"><span class="projetcolor">|</span> Projets</a>
+          <a class="nav-link" href="#soft"><span class="softcolor">|</span> Software</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link   " href="#contact"><span class="contactcolor">|</span> Contact</a>
+          <a class="nav-link" href="#proj"><span class="projetcolor">|</span> Projets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"><span class="contactcolor">|</span> Contact</a>
         </li>
       </ul>
 
     </div>
 
-    <button class=" navbar-toggler hidden-sm-up" type="button">
+    <button class="navbar-toggler hidden-sm-up" type="button">
       &#9776;
     </button>
 

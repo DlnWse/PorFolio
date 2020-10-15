@@ -24,95 +24,33 @@ html {
     transition: 1s;
 }
 
-/*--------------------- HR Bleu ---------------------*/
-hr {
-    border-width: 3px;
-    border-style: solid;
-    max-width: 50px;
-}
-
-/*--------------------- Home ---------------------*/
-.home {
-    /* height: 100vh;
-    width: 100%; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.hometext {
-    text-align: center;
-    top: 0;
-    position: absolute;
-    color: #fff;
-    width: 100%;
-    padding-top: 15%;
-    font-size: 50px;
-}
-
-span.blue {
-    color: #007fff;
-}
-
-/*--------------------- Background ---------------------*/
-
-#fondVideo {
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    filter: brightness(50%);
-}
-
-.bgWhite {
-    background-color: #fff;
-}
-
 /*--------------------- Commun ---------------------*/
 
-
-
-.apropos,
-.comp,
-.projet,
-.contact {
-    height: 90vh;
+.aboutbox,
+.skillsbox,
+.softwarebox,
+.projetbox,
+.contactbox {
+    height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+  
+background-color: tomato;
 }
 
-.boxR, .boxL {
-    padding-top: 5%;
+.boxR,
+.boxL {
     width: 50%;
     height: 100%;
+    padding: 10%;
+    padding-top: 0;
+    
 }
 
-
-/*--------------------- Titre ---------------------*/
-
-.titlepart {
-    font-size: 40px;
-    text-align: center;
-    color: #007fff;
+.titlebox{
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
-/*--------------------- Text & Paragraphe ---------------------*/
-
-.justify {
-    font-size: 25px;
-    text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
-    color: rgb(61, 61, 61);
-}
-
-.center {
-    text-align: center;
-    font-size: 25px;
-    margin-left: 5%;
-    margin-right: 5%;
-    color: rgb(61, 61, 61);
-}

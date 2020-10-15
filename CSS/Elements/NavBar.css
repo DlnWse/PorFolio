@@ -13,7 +13,9 @@ html {
 }
 
 /* ------------------------------- */
-
+nav{
+    background-color: white !important;
+}
 .navbar-brand {
     font-family: 'logofont' !important;
     font-size: 30px !important;
