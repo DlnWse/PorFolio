@@ -24,13 +24,13 @@
     <div id="about"></div>
 
     <div class="aboutbox">
-        <div class="boxL">
+        <div class="boxL bgviolet white">
             <h1 class="titlebox">A Propos</h1>
 
         </div>
-        <div class="boxR">
+        <div class="boxR textpadding">
 
-            <h1 class="titlepart">Qui suis-je ?</h1>
+            <h1 class="titlepart violet">Qui suis-je ?</h1>
 
             <p class="justify"> Hey ! Moi c'est Dylan, et je suis Developpeur WEB Junior. <br><br>
 
@@ -43,7 +43,8 @@
 
                 Vous voulez en voir plus ?</p>
 
-            <a href="../Document/CV_Dylan_Weisse.pdf" class="button">Télécharger mon CV</a>
+            <a href="../Document/CV_Dylan_Weisse.pdf" class=""><button class="cv">Télécharger mon CV</button></a>
+            <a href="index.php #contact" class=""><button class="contactcv">Me Contacter</button></a>
 
 
 
@@ -51,11 +52,21 @@
         </div>
 
     </div>
-    <!-- 
+ 
     <div class="comp">
+
+<div class="boxL bgred">
+
+</div>
+
+<div class="boxR bgred white">
+
+</div>
 
     </div>
 
+
+   <!-- 
     <div class="projet">
 
     </div>
