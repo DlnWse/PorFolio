@@ -52,28 +52,35 @@
         </div>
 
     </div>
- 
-    <div class="comp">
 
-<div class="boxL bgred">
+    <div class="skillsbox">
 
-</div>
+        <div class="boxL">
 
-<div class="boxR bgred white">
+        </div>
 
-</div>
+        <div class="boxR bgred white">
+            <h1 class="titlebox">Soft Skills</h1>
 
-    </div>
-
-
-   <!-- 
-    <div class="projet">
+        </div>
 
     </div>
 
-    <div class="contact">
 
-    </div> -->
+    <div class="softwarebox">
+
+        <div class="boxL bgblue white">
+            <h1 class="titlebox">Soft Skills</h1>
+
+        </div>
+
+        <div class="boxR">
+
+
+        </div>
+
+    </div>
+
 
 
 

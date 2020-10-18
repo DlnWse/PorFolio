@@ -78,6 +78,18 @@ h1.titlebox {
     background-color: red;
 }
 
+.bgblue {
+    background-color:  rgb(15, 154, 235);
+}
+
+.bggreen{
+background-color:  rgb(113, 212, 0);
+}
+.bgorange{
+    background-color: orange;
+}
+
+
 /*--------------------- Eléments ---------------------*/
 
 a {
