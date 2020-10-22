@@ -9,7 +9,6 @@ html {
     padding: 0;
     scroll-behavior: smooth;
     background-color: rgb(241, 241, 241);
-    height: 20000px;
 }
 
 /*--------------------- Scroll bar custom ---------------------*/
@@ -35,7 +34,7 @@ html {
 .aboutbox,
 .skillsbox,
 .softwarebox,
-.projetbox,
+.projectbox,
 .contactbox {
     height: 65vh;
     width: 100%;
@@ -59,9 +58,14 @@ h1.titlebox {
     font-family: 'logofont';
 }
 
+.titlepart {
+    font-family: 'logofont';
+    font-size: 50px;
+}
+
 /*--------------------- colors text ---------------------*/
 .violet {
-    color: violet;
+    color: rgb(158, 44, 120);
 }
 
 .white {
@@ -71,21 +75,22 @@ h1.titlebox {
 /*--------------------- colors bg ---------------------*/
 
 .bgviolet {
-    background-color: violet;
+    background-color: rgb(158, 44, 120);
 }
 
 .bgred {
-    background-color: red;
+    background-color: rgb(185, 0, 0);
 }
 
 .bgblue {
-    background-color:  rgb(15, 154, 235);
+    background-color: rgb(15, 154, 235);
 }
 
-.bggreen{
-background-color:  rgb(113, 212, 0);
+.bggreen {
+    background-color: rgb(113, 212, 0);
 }
-.bgorange{
+
+.bgorange {
     background-color: orange;
 }
 
@@ -101,8 +106,8 @@ a {
     margin-left: 20%;
     width: 30%;
     height: 10%;
-    border: solid 2px violet;
-    color: violet;
+    border: solid 2px rgb(158, 44, 120);
+    color: rgb(158, 44, 120);
     background-color: white;
     transition: 0.3s;
 }
@@ -110,21 +115,21 @@ a {
 .cv:hover {
     transition: 0.3s;
     color: white;
-    background-color: violet;
+    background-color: rgb(158, 44, 120);
 }
 
 .contactcv {
     width: 30%;
     height: 10%;
-    border: solid 2px violet;
+    border: solid 2px rgb(158, 44, 120);
     color: white;
-    background-color: violet;
+    background-color: rgb(158, 44, 120);
     transition: 0.3s;
 }
 
 .contactcv:hover {
     transition: 0.3s;
-    color: violet;
+    color: rgb(158, 44, 120);
     background-color: white;
 }
 
@@ -148,4 +153,14 @@ a {
     padding: 3%;
     padding-bottom: 0;
     padding-top: 1%;
+}
+
+/*--------------------- Skills ---------------------*/
+
+.listskills {
+    list-style: none;
+}
+.skill{
+    font-size: 30px;
+    line-height: 150%;
 }

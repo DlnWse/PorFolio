@@ -45,17 +45,24 @@
 
             <a href="../Document/CV_Dylan_Weisse.pdf" class=""><button class="cv">Télécharger mon CV</button></a>
             <a href="index.php #contact" class=""><button class="contactcv">Me Contacter</button></a>
-
-
-
-
         </div>
 
     </div>
 
+
+    <div id="skills"></div>
+
     <div class="skillsbox">
 
         <div class="boxL">
+
+            <ul class="listskills">
+                <li class="skill"><i class="fab fa-html5"></i> HTML</li>
+                <li class="skill"><i class="fab fa-css3"></i> CSS (et BootStrap)</li>
+                <li class="skill"><i class="fab fa-js"></i> JavaScript (JQuery)</li>
+                <li class="skill"><i class="fas fa-database"></i> BDD (Merise, SQL)</li>
+                <li class="skill"><i class="fab fa-php"></i> PHP (Symfony)</li>
+            </ul>
 
         </div>
 
@@ -70,7 +77,7 @@
     <div class="softwarebox">
 
         <div class="boxL bgblue white">
-            <h1 class="titlebox">Soft Skills</h1>
+            <h1 class="titlebox">Software</h1>
 
         </div>
 
@@ -81,8 +88,32 @@
 
     </div>
 
+    <div class="projectbox">
+
+        <div class="boxL">
+
+        </div>
+
+        <div class="boxR bggreen white">
+            <h1 class="titlebox">Project</h1>
+
+        </div>
+
+    </div>
+
+    <div class="contactbox">
+
+        <div class="boxL bgorange white">
+            <h1 class="titlebox">Contact</h1>
+
+        </div>
+
+        <div class="boxR">
 
 
+        </div>
+
+    </div>
 
 </body>
 
