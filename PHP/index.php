@@ -7,21 +7,14 @@
     <link rel="stylesheet" href="../CSS/index.css">
     <script src="https://kit.fontawesome.com/8923f438ee.js" crossorigin="anonymous"></script>
     <title>PortFolio - Dylan Weisse</title>
-
-
-</head>
-
-<body>
-
     <?php
 
     include '../Elements/NavBar.php'
 
     ?>
+</head>
 
-
-
-    <div id="about"></div>
+<body>
 
     <div class="aboutbox">
         <div class="boxL bgviolet white">
@@ -44,17 +37,18 @@
                 Vous voulez en voir plus ?</p>
 
             <a href="../Document/CV_Dylan_Weisse.pdf" class=""><button class="cv">Télécharger mon CV</button></a>
-            <a href="index.php #contact" class=""><button class="contactcv">Me Contacter</button></a>
+            <a href="index.php #contact" class=""><button class="contactcv">Contact <i class="fas fa-reply"></i> </i></button></a>
         </div>
 
     </div>
-
 
     <div id="skills"></div>
 
     <div class="skillsbox">
 
         <div class="boxL">
+
+            <h1 class="titlepart red">Languages</h1>
 
             <ul class="listskills">
                 <li class="skill"><i class="fab fa-html5"></i> HTML</li>
@@ -73,6 +67,7 @@
 
     </div>
 
+    <div id="soft"></div>
 
     <div class="softwarebox">
 
@@ -83,10 +78,24 @@
 
         <div class="boxR">
 
+            <h1 class="titlepart red">Logiciels et Utilitaires</h1>
+
+            <ul class="listsoft">
+                <li class="soft"><i class="fab fa-windows"></i> Windows</li>
+                <li class="soft"><i class="fas fa-server"></i> Wamp</li>
+                <li class="soft"><i class="fas fa-code"></i> Visual Studio Code</li>
+                <li class="soft"><i class="fab fa-github"></i> Github</li>
+                <li class="soft"><i class="fas fa-project-diagram"></i> PowerAMC</li>
+                <li class="soft"><i class="far fa-images"></i> Photoshop</li>
+                <li class="soft"><i class="far fa-file-word"></i> MS Office</li>
+            </ul>
+
 
         </div>
 
     </div>
+
+    <div id="proj"></div>
 
     <div class="projectbox">
 
@@ -100,7 +109,7 @@
         </div>
 
     </div>
-
+    <div id="contact"></div>
     <div class="contactbox">
 
         <div class="boxL bgorange white">
@@ -116,5 +125,16 @@
     </div>
 
 </body>
+
+<footer class="bg-light">
+    <p class="textfooter">Tous droits réservé © Dylan Weisse - 2020</p>
+    <p class="reseaubloc"><a class="linkreseau" href="https://open.spotify.com/user/striipcoca?si=cfNeAOY5S7uXGjd_WrJilg"><i class="fab fa-spotify"></i></a>
+        <a class="linkreseau" href="https://twitter.com/dylan_weisse"><i class="fab fa-twitter"></i></a>
+        <a class="linkreseau" href="https://github.com/DlnWse/"><i class="fab fa-github"></i></a>
+        <a class="linkreseau" href="https://www.linkedin.com/in/dlnwse/ "><i class="fab fa-linkedin"></i></a>
+
+    </p>
+
+</footer>
 
 </html>

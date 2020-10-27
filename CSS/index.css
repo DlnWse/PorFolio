@@ -8,7 +8,11 @@ html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(82, 82, 82);
+}
+
+body {
+    margin-top: 5%;
 }
 
 /*--------------------- Scroll bar custom ---------------------*/
@@ -43,6 +47,16 @@ html {
     flex-wrap: wrap;
 }
 
+#skills,
+#soft,
+#proj,
+#contact {
+    margin-bottom: 3%;
+}
+.aboutbox{
+    margin-top: 3%;
+}
+
 .boxR,
 .boxL {
     width: 50%;
@@ -72,6 +86,10 @@ h1.titlebox {
     color: white;
 }
 
+.red {
+    color: rgb(185, 0, 0);
+}
+
 /*--------------------- colors bg ---------------------*/
 
 .bgviolet {
@@ -87,7 +105,7 @@ h1.titlebox {
 }
 
 .bggreen {
-    background-color: rgb(113, 212, 0);
+    background-color: rgba(0, 134, 33, 0.87);
 }
 
 .bgorange {
@@ -136,6 +154,7 @@ a {
 
 /*--------------------- Text ---------------------*/
 .titlepart {
+    padding-top: 2%;
     text-align: center;
 }
 
@@ -158,9 +177,140 @@ a {
 /*--------------------- Skills ---------------------*/
 
 .listskills {
+    padding-top: 10%;
     list-style: none;
+    text-align: center;
 }
-.skill{
+
+.skill {
     font-size: 30px;
-    line-height: 150%;
+    line-height: 200%;
+}
+
+/*--------------------- Soft ---------------------*/
+
+.listsoft {
+    padding-top: 5%;
+    list-style: none;
+    text-align: center;
+}
+
+.soft {
+    font-size: 30px;
+    line-height: 200%;
+}
+
+
+/*--------------------- icone color ---------------------*/
+
+.fa-html5 {
+    color: orangered;
+}
+
+.fa-css3 {
+    color: rgb(0, 106, 192);
+}
+
+.fa-js {
+    color: rgba(255, 208, 0, 0.801);
+}
+
+.fa-database {
+    color: red;
+}
+
+.fa-php {
+    color: rgb(0, 48, 138);
+}
+
+.fa-windows{
+    color: rgb(0, 106, 192);
+}
+
+.fa-server{
+    color: hotpink;
+}
+
+.fa-code{
+    color: skyblue;
+}
+
+.fa-github{
+    color: rgb(70, 70, 70);
+}
+
+.fa-project-diagram{
+    color: teal;
+}
+
+.fa-images{
+    color: rgba(255, 208, 0, 0.829);
+}
+
+.fa-file-word{
+    color: royalblue;
+}
+
+.fa-spotify {
+    color: rgb(101, 168, 0);
+    transition: 0.5s;
+}
+
+.fa-spotify:hover {
+    transition: 0.5s;
+    color: rgb(83, 138, 0);
+}
+.fa-twitter {
+    color: rgb(0, 157, 219);
+    transition: 0.5s;
+}
+
+.fa-twitter:hover {
+    transition: 0.5s;
+    color: rgb(0, 100, 139);
+}
+
+.fa-linkedin {
+    color: rgb(0, 100, 139);
+    transition: 0.5s;
+}
+
+.fa-linkedin:hover {
+    transition: 0.5s;
+    color: rgb(0, 63, 88);
+}
+
+.fa-github {
+    color: rgb(70, 70, 70);
+    transition: 0.5s;
+}
+
+.fa-github:hover {
+    transition: 0.5s;
+    color: black;
+}
+
+/*--------------------- footer ---------------------*/
+
+footer {
+    box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.363);
+    width: 100%;
+    height: 70px;
+    margin: 0;
+}
+
+.textfooter {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+.reseaubloc {
+    text-align: center;
+    margin: 0;
+}
+
+.linkreseau {
+    font-size: 28px;
+    padding-right: 15px;
 }

@@ -14,7 +14,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-light bg-light justify-content-between">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-toggleable-sm navbar-light bg-light justify-content-between">
  
 
   <a class="navbar-brand" href="#">
@@ -26,7 +26,7 @@
 
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#about"> <span class="aboutcolor">|</span> About</a>
+          <a class="nav-link" href="#"> <span class="aboutcolor">|</span> About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#skills"><span class="skillscolor">|</span> Skills</a>
