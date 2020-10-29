@@ -53,7 +53,8 @@ body {
 #contact {
     margin-bottom: 3%;
 }
-.aboutbox{
+
+.aboutbox {
     margin-top: 3%;
 }
 
@@ -200,6 +201,8 @@ a {
     line-height: 200%;
 }
 
+/*--------------------- carrousel ---------------------*/
+
 
 /*--------------------- icone color ---------------------*/
 
@@ -223,31 +226,31 @@ a {
     color: rgb(0, 48, 138);
 }
 
-.fa-windows{
+.fa-windows {
     color: rgb(0, 106, 192);
 }
 
-.fa-server{
+.fa-server {
     color: hotpink;
 }
 
-.fa-code{
+.fa-code {
     color: skyblue;
 }
 
-.fa-github{
+.fa-github {
     color: rgb(70, 70, 70);
 }
 
-.fa-project-diagram{
+.fa-project-diagram {
     color: teal;
 }
 
-.fa-images{
-    color: rgba(255, 208, 0, 0.829);
+.fa-eye-dropper {
+    color: rgba(255, 123, 0, 0.829);
 }
 
-.fa-file-word{
+.fa-file-word {
     color: royalblue;
 }
 
@@ -260,6 +263,7 @@ a {
     transition: 0.5s;
     color: rgb(83, 138, 0);
 }
+
 .fa-twitter {
     color: rgb(0, 157, 219);
     transition: 0.5s;

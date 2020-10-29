@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/index.css">
     <script src="https://kit.fontawesome.com/8923f438ee.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>PortFolio - Dylan Weisse</title>
     <?php
 
@@ -86,7 +89,7 @@
                 <li class="soft"><i class="fas fa-code"></i> Visual Studio Code</li>
                 <li class="soft"><i class="fab fa-github"></i> Github</li>
                 <li class="soft"><i class="fas fa-project-diagram"></i> PowerAMC</li>
-                <li class="soft"><i class="far fa-images"></i> Photoshop</li>
+                <li class="soft"><i class="fas fa-eye-dropper"></i> Photoshop</li>
                 <li class="soft"><i class="far fa-file-word"></i> MS Office</li>
             </ul>
 
@@ -101,11 +104,24 @@
 
         <div class="boxL">
 
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="PF-tab" data-toggle="tab" href="#PF" role="tab" aria-controls="PF" aria-selected="true">Porfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="VDT-tab" data-toggle="tab" href="#VDT" role="tab" aria-controls="VDT" aria-selected="false">VDT Formation</a>
+                </li>
+               
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="PF" role="tabpanel" aria-labelledby="PF-tab">...</div>
+                <div class="tab-pane fade" id="VDT" role="tabpanel" aria-labelledby="VDT-tab">...</div>
+            </div>
+
         </div>
 
         <div class="boxR bggreen white">
             <h1 class="titlebox">Project</h1>
-
         </div>
 
     </div>
@@ -136,5 +152,9 @@
     </p>
 
 </footer>
+
+<script src="../JS/Elements/carrousel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
 </html>
