@@ -81,7 +81,7 @@
 
         <div class="boxR">
 
-            <h1 class="titlepart red">Logiciels et Utilitaires</h1>
+            <h1 class="titlepart blue">Logiciels et Utilitaires</h1>
 
             <ul class="listsoft">
                 <li class="soft"><i class="fab fa-windows"></i> Windows</li>
@@ -104,6 +104,8 @@
 
         <div class="boxL">
 
+        <h1 class="titlepart green">Mes Projets</h1>
+
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="PF-tab" data-toggle="tab" href="#PF" role="tab" aria-controls="PF" aria-selected="true">Porfolio</a>
@@ -114,7 +116,7 @@
                
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="PF" role="tabpanel" aria-labelledby="PF-tab">...</div>
+                <div class="tab-pane fade show active" id="PF" role="tabpanel" aria-labelledby="PF-tab"> </div>
                 <div class="tab-pane fade" id="VDT" role="tabpanel" aria-labelledby="VDT-tab">...</div>
             </div>
 
@@ -126,6 +128,7 @@
 
     </div>
     <div id="contact"></div>
+    
     <div class="contactbox">
 
         <div class="boxL bgorange white">

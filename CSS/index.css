@@ -91,6 +91,14 @@ h1.titlebox {
     color: rgb(185, 0, 0);
 }
 
+.blue {
+    color: rgb(15, 154, 235);
+}
+
+.green {
+    color: rgba(0, 134, 33, 0.87);
+}
+
 /*--------------------- colors bg ---------------------*/
 
 .bgviolet {
