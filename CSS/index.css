@@ -78,6 +78,38 @@ h1.titlebox {
     font-size: 50px;
 }
 
+#VDT-tab {
+    color: rgb(79, 182, 216);
+    transition: 0.5s
+}
+
+#VDT-tab:hover {
+    transition: 0.5s;
+    background-color: rgb(79, 182, 216);
+    color: white;
+}
+#VDT-tab.show.active{
+    background-color: rgb(79, 182, 216);
+    color: white;
+}
+
+#PF-tab {
+    color: rgb(158, 44, 120);
+    transition: 0.5s
+}
+
+#PF-tab:hover {
+    transition: 0.5s;
+    background-color: rgb(158, 44, 120);
+    color: white;
+}
+#PF-tab.show.active{
+    background-color: rgb(158, 44, 120);
+    color: white;
+}
+
+
+
 /*--------------------- colors text ---------------------*/
 .violet {
     color: rgb(158, 44, 120);
