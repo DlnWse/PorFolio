@@ -40,7 +40,7 @@
                 Vous voulez en voir plus ?</p>
 
             <a href="../Document/CV_Dylan_Weisse.pdf" class=""><button class="cv">Télécharger mon CV</button></a>
-            <a href="index.php #contact" class=""><button class="contactcv">Contact <i class="fas fa-reply"></i> </i></button></a>
+            <a href="index.php #contact" class=""><button class="contactcv">Contact <i class="fas fa-reply"></i></button></a>
         </div>
 
     </div>
@@ -137,7 +137,19 @@
         </div>
 
         <div class="boxR">
+<form action="">
 
+<label for="">Nom - Prénom :</label><br>
+<input class="inputcontact" type="text" name="name"  id="name" placeholder="Tapez ici votre nom et prénom"><br>
+
+<label for="">E-mail :</label><br>
+<input class="inputcontact" type="email" name="mail" id="mail" placeholder="Tapez votre e-mail ici"><br>
+
+<label for="">Message :</label><br>
+<textarea class="areacontact" name="message" id="message" cols="30" rows="10" placeholder="Tapez votre message ici"></textarea>
+
+<button type="submit">Envoyer </button>
+</form>
 
         </div>
 

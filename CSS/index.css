@@ -241,6 +241,22 @@ a {
     line-height: 200%;
 }
 
+/*--------------------- Contact ---------------------*/
+form{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.inputcontact, .areacontact{
+  font-size: 18px;
+  border: orange 2px solid;
+  border-radius: 5%;
+}
+.inputcontact{
+    width: 100%;
+    height: 20%;
+}
+
+
 /*--------------------- carrousel ---------------------*/
 
 
