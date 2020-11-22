@@ -148,7 +148,7 @@
                 <input class="inputcontact" type="email" name="mail" id="mail" placeholder="Tapez votre e-mail ici"><br>
 
                 <label for="">Message :</label><br>
-                <textarea class="areacontact" name="message" id="message" cols="30" rows="10" placeholder="Tapez votre message ici"></textarea><br>
+                <textarea class="areacontact" name="message" id="message" placeholder="Tapez votre message ici"></textarea><br>
 
                 <br><button type="submit">Envoyer <i class="fas fa-reply"></i></button>
             </form>
