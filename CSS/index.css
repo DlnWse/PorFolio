@@ -277,6 +277,25 @@ label:not(:nth-child(1)) {
     margin-top: 3%;
 }
 
+.buttoncontact{
+    margin-top: 3%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    font-size: 20px;
+    color: orange;
+    width: 25%;
+    height: 50px;
+    border: orange 2px solid;
+    background-color: white;
+    transition: 0.3s;
+}
+.buttoncontact:hover{
+    transition: 0.3s;
+    color: white;
+    border: orange 2px solid;
+    background-color: orange;
+}
+
 
 /*--------------------- carrousel ---------------------*/
 

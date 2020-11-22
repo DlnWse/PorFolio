@@ -150,7 +150,7 @@
                 <label for="">Message :</label><br>
                 <textarea class="areacontact" name="message" id="message" placeholder="Tapez votre message ici"></textarea><br>
 
-                <br><button type="submit">Envoyer <i class="fas fa-reply"></i></button>
+               <button class="buttoncontact" type="submit">Envoyer <i class="fas fa-reply"></i></button>
             </form>
 
         </div>
