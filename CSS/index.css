@@ -88,7 +88,8 @@ h1.titlebox {
     background-color: rgb(79, 182, 216);
     color: white;
 }
-#VDT-tab.show.active{
+
+#VDT-tab.show.active {
     background-color: rgb(79, 182, 216);
     color: white;
 }
@@ -103,7 +104,8 @@ h1.titlebox {
     background-color: rgb(158, 44, 120);
     color: white;
 }
-#PF-tab.show.active{
+
+#PF-tab.show.active {
     background-color: rgb(158, 44, 120);
     color: white;
 }
@@ -129,6 +131,10 @@ h1.titlebox {
 
 .green {
     color: rgba(0, 134, 33, 0.87);
+}
+
+.orange {
+    color: orange;
 }
 
 /*--------------------- colors bg ---------------------*/
@@ -242,18 +248,30 @@ a {
 }
 
 /*--------------------- Contact ---------------------*/
-form{
+form {
     margin-left: 10%;
     margin-right: 10%;
 }
-.inputcontact, .areacontact{
-  font-size: 18px;
-  border: orange 2px solid;
-  border-radius: 5%;
+
+.inputcontact,
+.areacontact {
+    font-size: 18px;
+    border: orange 2px solid;
+
 }
-.inputcontact{
+
+.inputcontact {
     width: 100%;
-    height: 20%;
+    height: 50px;
+}
+
+label {
+
+    font-size: 20px;
+}
+
+label:not(:nth-child(1)) {
+    margin-top: 3%;
 }
 
 

@@ -104,7 +104,7 @@
 
         <div class="boxL">
 
-        <h1 class="titlepart green">Mes Projets</h1>
+            <h1 class="titlepart green">Mes Projets</h1>
 
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
@@ -113,7 +113,7 @@
                 <li class="nav-item">
                     <a class="nav-link" id="VDT-tab" data-toggle="tab" href="#VDT" role="tab" aria-controls="VDT" aria-selected="false">VDT Formation</a>
                 </li>
-               
+
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="PF" role="tabpanel" aria-labelledby="PF-tab"> </div>
@@ -128,7 +128,7 @@
 
     </div>
     <div id="contact"></div>
-    
+
     <div class="contactbox">
 
         <div class="boxL bgorange white">
@@ -137,19 +137,21 @@
         </div>
 
         <div class="boxR">
-<form action="">
+            <h1 class="titlepart orange">Me contacter</h1>
 
-<label for="">Nom - Prénom :</label><br>
-<input class="inputcontact" type="text" name="name"  id="name" placeholder="Tapez ici votre nom et prénom"><br>
+            <form action="">
 
-<label for="">E-mail :</label><br>
-<input class="inputcontact" type="email" name="mail" id="mail" placeholder="Tapez votre e-mail ici"><br>
+                <label for="">Nom - Prénom :</label><br>
+                <input class="inputcontact" type="text" name="name" id="name" placeholder="Tapez ici votre nom et prénom"><br>
 
-<label for="">Message :</label><br>
-<textarea class="areacontact" name="message" id="message" cols="30" rows="10" placeholder="Tapez votre message ici"></textarea>
+                <label for="">E-mail :</label><br>
+                <input class="inputcontact" type="email" name="mail" id="mail" placeholder="Tapez votre e-mail ici"><br>
 
-<button type="submit">Envoyer </button>
-</form>
+                <label for="">Message :</label><br>
+                <textarea class="areacontact" name="message" id="message" cols="30" rows="10" placeholder="Tapez votre message ici"></textarea><br>
+
+                <br><button type="submit">Envoyer <i class="fas fa-reply"></i></button>
+            </form>
 
         </div>
 
