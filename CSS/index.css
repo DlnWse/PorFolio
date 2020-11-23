@@ -247,6 +247,27 @@ a {
     line-height: 200%;
 }
 
+/*--------------------- Projet ---------------------*/
+
+.carousel{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+img{
+    -webkit-filter: brightness(70%); /* Safari 6.0 - 9.0 */
+    filter: brightness(70%);
+    /* taille des images 1850*935 */
+}
+
+.language{
+    font-size: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    
+
+}
 /*--------------------- Contact ---------------------*/
 form {
     margin-left: 10%;
