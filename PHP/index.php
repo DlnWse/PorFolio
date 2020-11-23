@@ -106,18 +106,43 @@
 
             <h1 class="titlepart green">Mes Projets</h1>
 
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="PF-tab" data-toggle="tab" href="#PF" role="tab" aria-controls="PF" aria-selected="true">Porfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="VDT-tab" data-toggle="tab" href="#VDT" role="tab" aria-controls="VDT" aria-selected="false">VDT Formation</a>
-                </li>
-
-            </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="PF" role="tabpanel" aria-labelledby="PF-tab"> </div>
-                <div class="tab-pane fade" id="VDT" role="tabpanel" aria-labelledby="VDT-tab">...</div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Image/captureSite/DW.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Mon porfolio</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Image/captureSite/VDT.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Site Vitrine VDT Formation</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Image/fond.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>A Venir...</h5>
+                            <p>De futurs projets sont a venir...</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
 
         </div>
@@ -150,7 +175,7 @@
                 <label for="">Message :</label><br>
                 <textarea class="areacontact" name="message" id="message" placeholder="Tapez votre message ici"></textarea><br>
 
-               <button class="buttoncontact" type="submit">Envoyer <i class="fas fa-reply"></i></button>
+                <button class="buttoncontact" type="submit">Envoyer <i class="fas fa-reply"></i></button>
             </form>
 
         </div>
