@@ -174,20 +174,63 @@
         <div class="boxR">
             <h1 class="titlepart orange">Me contacter</h1>
 
+            <?php
+            if (isset($_POST['mailform'])) {
+                if (!empty($_POST['nom']) and !empty($_POST['mail']) and !empty($_POST['message'])) {
+                    $header = "MIME-Version: 1.0\r\n";
+                    $header .= 'From:"dylan-weisse.com"<contact@dylan-weisse.com>' . "\n";
+                    $header .= 'Content-Type:text/html; charset="uft-8"' . "\n";
+                    $header .= 'Content-Transfer-Encoding: 8bit';
+
+                    $message = '
+		<html>
+			<body>
+				<div align="center">
+					<img src="http://www.primfx.com/mailing/banniere.png"/>
+					<br />
+					<u>Nom de l\'expéditeur :</u>' . $_POST['nom'] . '<br />
+					<u>Mail de l\'expéditeur :</u>' . $_POST['mail'] . '<br />
+					<br />
+					' . nl2br($_POST['message']) . '
+					<br />
+					<img src="http://www.primfx.com/mailing/separation.png"/>
+				</div>
+			</body>
+		</html>
+		';
+
+                    mail("contact@dylan-weisse.com", "CONTACT - dylan-weisse.com", $message, $header);
+                    $msg = "Votre message a bien été envoyé !";
+                } else {
+                    $msg = "Tous les champs doivent être complétés !";
+                }
+            }
+            ?>
+
             <form action="">
 
                 <label for="">Nom - Prénom :</label><br>
-                <input class="inputcontact" type="text" name="name" id="name" placeholder="Tapez ici votre nom et prénom"><br>
+                <input class="inputcontact" type="text" name="nom" placeholder="Tapez votre nom et votre prénom" value="<?php if (isset($_POST['nom'])) {
+                                                                                                                            echo $_POST['nom'];
+                                                                                                                        } ?>" /><br>
 
                 <label for="">E-mail :</label><br>
-                <input class="inputcontact" type="email" name="mail" id="mail" placeholder="Tapez votre e-mail ici"><br>
+                <input class="inputcontact" type="email" name="mail" placeholder="Tapez votre E-mail" value="<?php if (isset($_POST['mail'])) {
+                                                                                                                    echo $_POST['mail'];
+                                                                                                                } ?>" /> <br>
 
                 <label for="">Message :</label><br>
-                <textarea class="areacontact" name="message" id="message" placeholder="Tapez votre message ici"></textarea><br>
+                <textarea class="areacontact" name="message" placeholder="Votre message"><?php if (isset($_POST['message'])) {
+                                                                                                echo $_POST['message'];
+                                                                                            } ?></textarea><br>
 
-                <button class="buttoncontact" type="submit">Envoyer <i class="fas fa-reply"></i></button>
+                <button class="buttoncontact" name="mailform" type="submit">Envoyer <i class="fas fa-reply"></i></button>
             </form>
-
+            <?php
+            if (isset($msg)) {
+                echo $msg;
+            }
+            ?>
         </div>
 
     </div>
