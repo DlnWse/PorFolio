@@ -200,14 +200,20 @@
 		';
 
                     mail("test@dylan-weisse.com", "CONTACT - dylan-weisse.com", $message, $header);
-                    $msg = '<div  style="margin-left: 10%; margin-right: 10%; margin-top: 1%;" class="alert alert-success" id="alert" role="alert">
-                    Votre message a bien été envoyé !
-                  </div>';
+                    $msg = '<div style="margin-left: 10%; margin-right: 10%; margin-top: 1%;" class="alert alert-success"  class="alert alert-warning alert-dismissible fade show" role="alert">
+                  Votre message a bien été envoyé !
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>';
                     $_POST = null;
                 } else {
-                    $msg = '<div style="margin-left: 10%; margin-right: 10%; margin-top: 1%; " class="alert alert-danger" id="alert" role="alert">
+                    $msg = '<div style="margin-left: 10%; margin-right: 10%; margin-top: 1%;" class="alert alert-danger"  class="alert alert-warning alert-dismissible fade show" role="alert">
                     Tous les champs doivent être complétés !
-                  </div>';
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>';
                 }
             }
             ?>
@@ -219,19 +225,19 @@
             <form method="POST" action="">
 
                 <label for="">Nom - Prénom :</label><br>
-                <input required class="inputcontact" type="text" name="nom" placeholder="Tapez votre nom et votre prénom" value="<?php if (isset($_POST['nom'])) {
-                                                                                                                            echo $_POST['nom'];
-                                                                                                                        } ?>" /><br>
+                <input  class="inputcontact" type="text" name="nom" placeholder="Tapez votre nom et votre prénom" value="<?php if (isset($_POST['nom'])) {
+                                                                                                                                        echo $_POST['nom'];
+                                                                                                                                    } ?>" /><br>
 
                 <label for="">E-mail :</label><br>
-                <input required class="inputcontact" type="email" name="mail" placeholder="Tapez votre E-mail" value="<?php if (isset($_POST['mail'])) {
-                                                                                                                    echo $_POST['mail'];
-                                                                                                                } ?>" /> <br>
+                <input  class="inputcontact" type="email" name="mail" placeholder="Tapez votre E-mail" value="<?php if (isset($_POST['mail'])) {
+                                                                                                                            echo $_POST['mail'];
+                                                                                                                        } ?>" /> <br>
 
                 <label for="">Message :</label><br>
-                <textarea required class="areacontact" name="message" placeholder="Votre message"><?php if (isset($_POST['message'])) {
-                                                                                                echo $_POST['message'];
-                                                                                            } ?></textarea><br>
+                <textarea  class="areacontact" name="message" placeholder="Votre message"><?php if (isset($_POST['message'])) {
+                                                                                                        echo $_POST['message'];
+                                                                                                    } ?></textarea><br>
 
                 <input id="envoi" class="buttoncontact" type="submit" value="Envoyer !" name="mailform" />
             </form>
