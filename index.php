@@ -219,17 +219,17 @@
             <form method="POST" action="">
 
                 <label for="">Nom - Prénom :</label><br>
-                <input class="inputcontact" type="text" name="nom" placeholder="Tapez votre nom et votre prénom" value="<?php if (isset($_POST['nom'])) {
+                <input required class="inputcontact" type="text" name="nom" placeholder="Tapez votre nom et votre prénom" value="<?php if (isset($_POST['nom'])) {
                                                                                                                             echo $_POST['nom'];
                                                                                                                         } ?>" /><br>
 
                 <label for="">E-mail :</label><br>
-                <input class="inputcontact" type="email" name="mail" placeholder="Tapez votre E-mail" value="<?php if (isset($_POST['mail'])) {
+                <input required class="inputcontact" type="email" name="mail" placeholder="Tapez votre E-mail" value="<?php if (isset($_POST['mail'])) {
                                                                                                                     echo $_POST['mail'];
                                                                                                                 } ?>" /> <br>
 
                 <label for="">Message :</label><br>
-                <textarea class="areacontact" name="message" placeholder="Votre message"><?php if (isset($_POST['message'])) {
+                <textarea required class="areacontact" name="message" placeholder="Votre message"><?php if (isset($_POST['message'])) {
                                                                                                 echo $_POST['message'];
                                                                                             } ?></textarea><br>
 

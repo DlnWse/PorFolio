@@ -1,0 +1,10 @@
+  mail("test@dylan-weisse.com", "CONTACT - dylan-weisse.com", $message, $header);
+                    $msg = '<div  style="margin-left: 10%; margin-right: 10%; margin-top: 1%;" class="alert alert-success" id="alert" role="alert">
+                    Votre message a bien été envoyé !
+                  </div>';
+                    $_POST = null;
+                } else {
+                    $msg = '<div style="margin-left: 10%; margin-right: 10%; margin-top: 1%; " class="alert alert-danger" id="alert" role="alert">
+                    Tous les champs doivent être complétés !
+                  </div>';
+                }
