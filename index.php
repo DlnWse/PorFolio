@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/index.css">
+    <link href="Image/logoSite.png" rel="shortcut icon">
     <script src="https://kit.fontawesome.com/8923f438ee.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>PortFolio - Dylan Weisse</title>
     <?php
 
-    include '../Elements/NavBar.php'
+    include 'Elements/NavBar.php'
 
     ?>
 </head>
@@ -178,36 +178,45 @@
             if (isset($_POST['mailform'])) {
                 if (!empty($_POST['nom']) and !empty($_POST['mail']) and !empty($_POST['message'])) {
                     $header = "MIME-Version: 1.0\r\n";
-                    $header .= 'From:"dylan-weisse.com"<contact@dylan-weisse.com>' . "\n";
+                    $header .= 'From:"dylan-weisse.com"<test@dylan-weisse.com>' . "\n";
                     $header .= 'Content-Type:text/html; charset="uft-8"' . "\n";
                     $header .= 'Content-Transfer-Encoding: 8bit';
 
                     $message = '
 		<html>
 			<body>
-				<div align="center">
-					<img src="http://www.primfx.com/mailing/banniere.png"/>
+				<div style="backgroud-color: #222222;" align="left">
+                    <br />
+                    
+					<p style="font-size: 18px;"> <u>Nom</u> : ' . $_POST['nom'] . '</p>
+                    <p style="font-size: 18px;"><u>E-Mail</u> : ' . $_POST['mail'] . '</p>
+                     <hr>
 					<br />
-					<u>Nom de l\'expéditeur :</u>' . $_POST['nom'] . '<br />
-					<u>Mail de l\'expéditeur :</u>' . $_POST['mail'] . '<br />
+					<p style="font-size: 16px;"><u >Message</u> : ' . nl2br($_POST['message']) . '</p>
 					<br />
-					' . nl2br($_POST['message']) . '
-					<br />
-					<img src="http://www.primfx.com/mailing/separation.png"/>
 				</div>
 			</body>
 		</html>
 		';
 
-                    mail("contact@dylan-weisse.com", "CONTACT - dylan-weisse.com", $message, $header);
-                    $msg = "Votre message a bien été envoyé !";
+                    mail("test@dylan-weisse.com", "CONTACT - dylan-weisse.com", $message, $header);
+                    $msg = '<div  style="margin-left: 10%; margin-right: 10%; margin-top: 1%;" class="alert alert-success" id="alert" role="alert">
+                    Votre message a bien été envoyé !
+                  </div>';
+                    $_POST = null;
                 } else {
-                    $msg = "Tous les champs doivent être complétés !";
+                    $msg = '<div style="margin-left: 10%; margin-right: 10%; margin-top: 1%; " class="alert alert-danger" id="alert" role="alert">
+                    Tous les champs doivent être complétés !
+                  </div>';
                 }
             }
             ?>
-
-            <form action="">
+            <?php
+            if (isset($msg)) {
+                echo $msg;
+            }
+            ?>
+            <form method="POST" action="">
 
                 <label for="">Nom - Prénom :</label><br>
                 <input class="inputcontact" type="text" name="nom" placeholder="Tapez votre nom et votre prénom" value="<?php if (isset($_POST['nom'])) {
@@ -224,13 +233,9 @@
                                                                                                 echo $_POST['message'];
                                                                                             } ?></textarea><br>
 
-                <button class="buttoncontact" name="mailform" type="submit">Envoyer <i class="fas fa-reply"></i></button>
+                <input id="envoi" class="buttoncontact" type="submit" value="Envoyer !" name="mailform" />
             </form>
-            <?php
-            if (isset($msg)) {
-                echo $msg;
-            }
-            ?>
+
         </div>
 
     </div>
